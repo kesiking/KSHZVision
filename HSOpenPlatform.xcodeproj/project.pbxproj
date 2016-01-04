@@ -172,6 +172,7 @@
 		5F2E22F61BDDB60700F36DAF /* KSDeleteBtnViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E22F51BDDB60700F36DAF /* KSDeleteBtnViewCell.m */; };
 		5F2FD6211C0D463E00C7A397 /* IMYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2FD61D1C0D463E00C7A397 /* IMYWebView.m */; };
 		5F2FD6221C0D463E00C7A397 /* IMY_NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2FD6201C0D463E00C7A397 /* IMY_NJKWebViewProgress.m */; };
+		5F34EBDB1C3A12F0007301E8 /* HSHomeCircleChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F34EBDA1C3A12F0007301E8 /* HSHomeCircleChartView.m */; };
 		5F42D45C1BF037E2001E7930 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F42D45B1BF037E2001E7930 /* Photos.framework */; };
 		5F42D45E1BF037EA001E7930 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F42D45D1BF037EA001E7930 /* AssetsLibrary.framework */; };
 		5F42D46A1BF07BC6001E7930 /* KSImageListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42D4671BF07BC6001E7930 /* KSImageListCache.m */; };
@@ -922,6 +923,8 @@
 		5F2FD61D1C0D463E00C7A397 /* IMYWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYWebView.m; sourceTree = "<group>"; };
 		5F2FD61F1C0D463E00C7A397 /* IMY_NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMY_NJKWebViewProgress.h; sourceTree = "<group>"; };
 		5F2FD6201C0D463E00C7A397 /* IMY_NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMY_NJKWebViewProgress.m; sourceTree = "<group>"; };
+		5F34EBD91C3A12F0007301E8 /* HSHomeCircleChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHomeCircleChartView.h; sourceTree = "<group>"; };
+		5F34EBDA1C3A12F0007301E8 /* HSHomeCircleChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSHomeCircleChartView.m; sourceTree = "<group>"; };
 		5F42D45B1BF037E2001E7930 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		5F42D45D1BF037EA001E7930 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5F42D4661BF07BC6001E7930 /* KSImageListCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSImageListCache.h; sourceTree = "<group>"; };
@@ -2319,6 +2322,15 @@
 			path = UIWebViewProgress;
 			sourceTree = "<group>";
 		};
+		5F34EBD81C3A1283007301E8 /* HSHomeCircleChartView */ = {
+			isa = PBXGroup;
+			children = (
+				5F34EBD91C3A12F0007301E8 /* HSHomeCircleChartView.h */,
+				5F34EBDA1C3A12F0007301E8 /* HSHomeCircleChartView.m */,
+			);
+			path = HSHomeCircleChartView;
+			sourceTree = "<group>";
+		};
 		5F42D4651BF07BC6001E7930 /* KSImageViewDownload */ = {
 			isa = PBXGroup;
 			children = (
@@ -2883,6 +2895,7 @@
 		5F66C0F61BBA5CC300CC21F7 /* HSOpenPlatformHome */ = {
 			isa = PBXGroup;
 			children = (
+				5F34EBD81C3A1283007301E8 /* HSHomeCircleChartView */,
 				5F66C0F71BBA5CC300CC21F7 /* HSHomeTabViewController.h */,
 				5F66C0F81BBA5CC300CC21F7 /* HSHomeTabViewController.m */,
 			);
@@ -5032,6 +5045,7 @@
 				5F66C55B1BBA5CC600CC21F7 /* SDWebImagePrefetcher.m in Sources */,
 				5FFDE82E1BCB9AD80087B9E0 /* HSDeviceDataCenter.m in Sources */,
 				5F66C4C31BBA5CC500CC21F7 /* ViewController+MASAdditions.m in Sources */,
+				5F34EBDB1C3A12F0007301E8 /* HSHomeCircleChartView.m in Sources */,
 				5F66C4761BBA5CC500CC21F7 /* KSAdapterService.m in Sources */,
 				5F6D22DC1C30DD2600531064 /* HSPopMenuListView.m in Sources */,
 				5FFA36941C05542F00546790 /* RCTWrapperViewController+KSReactNativeViewControllerListener.m in Sources */,

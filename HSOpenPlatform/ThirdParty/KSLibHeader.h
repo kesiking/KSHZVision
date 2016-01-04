@@ -32,6 +32,8 @@
 #import "DateTools.h"
 #import "View+MASAdditions.h"
 #import "GroupedTableView.h"
+#import "PNChartDelegate.h"
+#import "PNChart.h"
 
 #define WEAKSELF typeof(self) __weak __block weakSelf = self;
 #define STRONGSELF typeof(self) __strong strongSelf = weakSelf;
